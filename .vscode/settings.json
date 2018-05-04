@@ -10,7 +10,7 @@
   "latex-workshop.latex.tools": [
     {
       "name": "texify",
-      "command": "latexmk",
+      "command": "xelatex",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
