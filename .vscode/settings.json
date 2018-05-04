@@ -1,7 +1,16 @@
 {
-  "latex-workshop.latex.toolchain": [
+  "latex-workshop.latex.recipes": [
     {
-      "command": "xelatex",
+      "name": "texify",
+      "tools": [
+        "texify"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "texify",
+      "command": "latexmk",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
@@ -12,5 +21,4 @@
       ]
     }
   ],
-  "python.pythonPath": "C:\\Users\\thinhdang\\Anaconda3\\python.exe"
 }
