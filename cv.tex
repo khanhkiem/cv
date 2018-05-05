@@ -90,7 +90,7 @@ ItalicFont = Fontin-Italic.otf
 %Section: Work Experience at the top
 \section{Work experience}
 \begin{tabular}{r|p{11cm}}
-	\textsc{Summer 2017} & Summer Intern at \textsc{INSPI CORPORATION}, \emph{Ho Chi Minh}\\&\footnotesize{Researched machine learning system for grading IELTS Writing essay automatically. Developed web application for submitting and grading writing essay.}\\
+	\textsc{Summer 2017} & Summer Intern at \textsc{INSPI CORPORATION}, \emph{Ho Chi Minh}\\&\footnotesize{Researched machine learning system for grading IELTS Writing essay automatically. Developed web application for submitting and grading writing essay. The model is composed of data preprocessing, feature extraction, regression.}\\
 \end{tabular}
 
 \section{Student Project Experience}
@@ -98,13 +98,15 @@ ItalicFont = Fontin-Italic.otf
 	\emph{Current} & Thesis: Deep Learning for Multi-Label Classification of Music by Genre\\ 
 	\textsc{Sep 2017} & \footnotesize{Applied deep learning to solve multi-label classification of music by genre. The classifier is consisted of ranking model and thresholding model. Developed web application capable of classifying variable-size audio by genre. The application also provide music recommendation base on genre.} \\
 	& \footnotesize{\faExternalLink\, \href{https://github.com/khanhkiem/khanh-tech-backend}{https://github.com/khanhkiem/khanh-tech-backend}}\\	
-	\textsc{Dec 2017} & Parallelizing Apriori Algorithm on GPU\\
-	\textsc{Oct 2017} & \footnotesize{Utilized manycore architecture of NVIDIA GPU to accelerate Apriori algorithm. Observed relationship between speedup and number of core}	\\
+	\textsc{Dec 2017} & Parallel computing project: Parallelizing Apriori Algorithm on GPU\\
+	\textsc{Oct 2017} & \footnotesize{Utilized manycore architecture of NVIDIA GPU to accelerate Apriori algorithm. Observed relationship between speedup and number of core. To utilize GPU, dataset is enconded as bitmap and apriori algorithm is vectorized. So, instead of branching and looping, Bitwise operation and arithmetic operation are usually invoked.}	\\
 	& \footnotesize{\faExternalLink\, \href{https://github.com/khanhkiem/Parallel-Computing-Project-Association-Rules-GPU}{https://github.com/khanhkiem/Parallel-Computing-Project-Association-Rules-GPU}}\\
-	\textsc{Dec 2017} & Scientific Research: Deep Q-learning for Solving Gomoku 9x9 \\
-	\textsc{Jul 2017} & \footnotesize{\faExternalLink\, \href{https://github.com/CEOutlaws/Kaithy_Reboot}{https://github.com/CEOutlaws/Kaithy\_Reboot}}\\
-	\textsc{May 2017} & Q-learning for Solving Tic-Tac-Toe \\
-	\textsc{Feb 2017} & \footnotesize{\faExternalLink\, \href{https://github.com/CEOutlaws/gomoku_ai_gpu}{https://github.com/CEOutlaws/gomoku\_ai\_gpu}}\\	
+	\textsc{Dec 2017} & Scientific Research: Deep Q-learning for Solving Gomoku \\
+	\textsc{Jul 2017} & \footnotesize{Took part in scientific research activity hosted by Bach Khoa University. Built and trained deep reinforcement learning model to play Gomoku. The model is evaluated by playing with other hand-crafted aritifical intelligent at different level. The model reach beginner level on 9x9 board.} \\
+	& \footnotesize{\faExternalLink\, \href{https://github.com/CEOutlaws/Kaithy_Reboot}{https://github.com/CEOutlaws/Kaithy\_Reboot}}\\
+	\textsc{May 2017} & Q-learning for Solving Gomoku \\
+	\textsc{Feb 2017} & \footnotesize{The model play very well on 3x3 board. But on greater board, the model show many weakness: massive state space, extremely slow training, etc. Failingly attempted to overcome the problem by state space reduction approach accelerated by GPU.} \\
+	& \footnotesize{\faExternalLink\, \href{https://github.com/CEOutlaws/gomoku_ai_gpu}{https://github.com/CEOutlaws/gomoku\_ai\_gpu}}\\	
 \end{tabular}
 
 \begin{tabular}{r|p{11cm}}
@@ -112,7 +114,7 @@ ItalicFont = Fontin-Italic.otf
 %Section: Education
 \section{Education}
 \begin{tabular}{r|l}
-	Current           & Bachelor of Engineering in \textsc{Computer}, \textbf{Bach Khoa University}, Ho Chi Minh \\
+	Current           & Undergraduate student (honors program) at \textbf{Bach Khoa University}, Ho Chi Minh \\
 	\textsc{Sep} 2014 & Major: Computer Engineering                                                              \\
 	                  & Thesis: ``Deep Learning for Multi-Label Classification of Music by Genre''
 	\\
@@ -125,7 +127,6 @@ ItalicFont = Fontin-Italic.otf
 %Section: Languages
 \section{Languages}
 \begin{tabular}{rl}
-	\textsc{Vietnamese:} & Mothertongue               \\
 	\textsc{English:}    & Good at reading, listening \\
 	                     & TOEIC 700 (2017)           \\
 \end{tabular}
@@ -139,8 +140,8 @@ ItalicFont = Fontin-Italic.otf
 	Other: 			& Latex, Word, Lucidchart \\
 \end{tabular}
 
-\section{Interests and Activities}
-Movie, Gaming, Football \\
-Technology, History\\
+% \section{Interests and Activities}
+% Movie, Gaming, Football \\
+% Technology, History\\
 
 \end{document}
