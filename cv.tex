@@ -4,6 +4,8 @@
 %A Few Useful Packages
 \usepackage{marvosym}
 \usepackage{fontspec} 					%for loading fonts
+\usepackage{fontawesome}
+
 \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
 \RequirePackage{color,graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -76,13 +78,13 @@ ItalicFont = Fontin-Italic.otf
 %Section: Personal Data
 \section{Personal Data}
 
-\begin{tabular}{rl}
-	\textsc{Place and Date of Birth:} & Ho Chi Minh, Vietnam | 12 November 1996                                               \\
-	\textsc{Address:}                 & 56 Duong Khue, Tan Phu District, Ho Chi Minh, Vietnam                                 \\
-	\textsc{Phone:}                   & +84 94 3042862                                                                        \\
-	\textsc{email:}                   & \href{mailto:nguyencaominhkhanh@gmail.com}{nguyencaominhkhanh@gmail.com}              \\
-	\textsc{Github:}                  & \href{https://github.com/khanhkiem}{https://github.com/khanhkiem}                     \\
-	\textsc{Facebook:}                & \href{https://www.facebook.com/khanhkiem1211}{https://www.facebook.com/khanhkiem1211} \\
+\begin{tabular}{cl}
+	\textsc{\faBirthdayCake} & 12 November 1996                                               \\
+	\textsc{\faMapMarker}                 & 56 Duong Khue, Tan Phu District, Ho Chi Minh, Vietnam                                 \\
+	\textsc{\faMobile}                   & \href{tel:+84943042862}{+84 94 3042862}                                                                        \\
+	\textsc{\faEnvelopeO}                   & \href{mailto:nguyencaominhkhanh@gmail.com}{nguyencaominhkhanh@gmail.com}              \\
+	\textsc{\faGithub}                  & \href{https://github.com/khanhkiem}{https://github.com/khanhkiem}                     \\
+	\textsc{\faFacebookOfficial}                & \href{https://www.facebook.com/khanhkiem1211}{https://www.facebook.com/khanhkiem1211} \\
 \end{tabular}
 
 %Section: Work Experience at the top
@@ -92,22 +94,24 @@ ItalicFont = Fontin-Italic.otf
 \end{tabular}
 
 \section{Student Project Experience}
-\begin{tabular}{r|p{11cm}}
-	\emph{Current} & Deep Learning for Multi-Label Classification of Music by Genre\\ 
-	\textsc{Sep 2017} & \footnotesize{.}\\
-	\textsc{Oct-Dec 2017} & Parallelizing Apriori Algorithm on GPU\\
-	& \footnotesize{.}	\\
-	\textsc{Jul-Dec 2017} & Deep Q-learning for Solving Gomoku 9x9 \\
-	& \footnotesize{.} \\
-	\textsc{Feb-May 2017} & Q-learning for Solving Tic-Tac-Toe \\
-	& \footnotesize{.} \\
+\begin{tabular}{r|p{12cm}}
+	\emph{Current} & Thesis: Deep Learning for Multi-Label Classification of Music by Genre\\ 
+	\textsc{Sep 2017} & \footnotesize{Applied deep learning to solve multi-label classification of music by genre. The classifier is consisted of ranking model and thresholding model. Developed web application capable of classifying variable-size audio by genre. The application also provide music recommendation base on genre.} \\
+	& \footnotesize{\faExternalLink\, \href{https://github.com/khanhkiem/khanh-tech-backend}{https://github.com/khanhkiem/khanh-tech-backend}}\\	
+	\textsc{Dec 2017} & Parallelizing Apriori Algorithm on GPU\\
+	\textsc{Oct 2017} & \footnotesize{Utilized manycore architecture of NVIDIA GPU to accelerate Apriori algorithm. Observed relationship between speedup and number of core}	\\
+	& \footnotesize{\faExternalLink\, \href{https://github.com/khanhkiem/Parallel-Computing-Project-Association-Rules-GPU}{https://github.com/khanhkiem/Parallel-Computing-Project-Association-Rules-GPU}}\\
+	\textsc{Dec 2017} & Scientific Research: Deep Q-learning for Solving Gomoku 9x9 \\
+	\textsc{Jul 2017} & \footnotesize{\faExternalLink\, \href{https://github.com/CEOutlaws/Kaithy_Reboot}{https://github.com/CEOutlaws/Kaithy\_Reboot}}\\
+	\textsc{May 2017} & Q-learning for Solving Tic-Tac-Toe \\
+	\textsc{Feb 2017} & \footnotesize{\faExternalLink\, \href{https://github.com/CEOutlaws/gomoku_ai_gpu}{https://github.com/CEOutlaws/gomoku\_ai\_gpu}}\\	
 \end{tabular}
 
 \begin{tabular}{r|p{11cm}}
 \end{tabular}
 %Section: Education
 \section{Education}
-\begin{tabular}{rl}
+\begin{tabular}{r|l}
 	Current           & Bachelor of Engineering in \textsc{Computer}, \textbf{Bach Khoa University}, Ho Chi Minh \\
 	\textsc{Sep} 2014 & Major: Computer Engineering                                                              \\
 	                  & Thesis: ``Deep Learning for Multi-Label Classification of Music by Genre''
